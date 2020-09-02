@@ -65,6 +65,15 @@ const Navbar = () => {
                       Contact
                     </NavLink>
                   </li>
+                  <li className="nav-item">
+                    <NavLink
+                      activeClassName="menu_active"
+                      className="nav-link"
+                      to="/login"
+                    >
+                      Login
+                    </NavLink>
+                  </li>
                 </ul>
               </div>
             </nav>

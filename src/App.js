@@ -6,6 +6,7 @@ import Service from "./Service";
 import About from "./About";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
+import Login from "./Login";
 import { Switch, Route, Redirect } from "react-router-dom";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Route exact path="/about" component={About} />
         <Route exact path="/service" component={Service} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/login" component={Login} />
         <Redirect to="/" />
       </Switch>
     </>
