@@ -26,7 +26,7 @@ a {
   position: relative;
   padding: 0px;
   -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.151);
-  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.151);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
   text-align: center;
 }
 
