@@ -1,5 +1,6 @@
 import React from "react";
 import "./Login.css";
+import { NavLink } from "react-router-dom";
 
 function Login() {
   return (
@@ -30,9 +31,9 @@ function Login() {
 
           {/* Remind Passowrd */}
           <div id="formFooter">
-            <a className="underlineHover" href="#">
+            <NavLink className="underlineHover" to="/">
               Forgot Password?
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>
